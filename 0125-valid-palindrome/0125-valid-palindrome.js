@@ -6,7 +6,7 @@ var isPalindrome = function (s) {
     if (s.length === 0) {
         return false;
     }
-    s = s.toLowerCase().replace(/[^a-z0-9/]/gi, '');
+    s = s.toLowerCase().replace(/[^a-z0-9]/gi, '');
 
     let start = 0;
     let end = s.length - 1;
