@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0125-valid-palindrome](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0125-valid-palindrome) |
 | [0290-word-pattern](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0290-word-pattern) |
+| [0680-valid-palindrome-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0680-valid-palindrome-ii) |
 ## Array
 |  |
 | ------- |
@@ -19,4 +20,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0125-valid-palindrome) |
+| [0680-valid-palindrome-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0680-valid-palindrome-ii) |
+## Greedy
+|  |
+| ------- |
+| [0680-valid-palindrome-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
