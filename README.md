@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0001-two-sum) |
 | [0242-valid-anagram](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0290-word-pattern) |
 ## String
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
 ## Two Pointers
