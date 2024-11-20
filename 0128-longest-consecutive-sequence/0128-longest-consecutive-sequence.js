@@ -5,26 +5,21 @@
 var longestConsecutive = function (nums) {
     if (nums.length === 0) return 0;
 
-    nums.sort((a, b) => a - b) // nlogn
+    let numSet = new Set(nums);
+    let longest = 0;
 
-    let consecutive = 1;
-    let maxCon = 1;
+    for (const num of nums) {
+        if (numSet.has(num + 1)) continue;
 
-    for (let end = 1; end < nums.length; end++) {
-        console.log(nums[end], nums[end - 1]);
-        if ((nums[end] - nums[end - 1]) == 1) {
-            consecutive++;
-            maxCon = Math.max(maxCon, consecutive);
-        } else if (nums[end] === nums[end - 1]) {
-            continue;
-        } else {
-            consecutive = 1;
+        let counter = 1;
+        let currNum = num;
+
+        while (numSet.has(--currNum)) {
+            counter++;
         }
+        longest = Math.max(longest, counter)
     }
 
-    // n
 
-    // TC : O(nlogn)
-
-    return maxCon;
+    return longest;
 };
