@@ -15,8 +15,6 @@ var longestConsecutive = function (nums) {
     for (const num of nums) {
         if (numSet.has(num + 1)) continue;
 
-        console.log("123");
-
         let counter = 1;
         let currNum = num;
 
