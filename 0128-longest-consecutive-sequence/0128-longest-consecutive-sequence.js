@@ -13,14 +13,14 @@ var longestConsecutive = function (nums) {
     console.log(numSet)
 
     for (const num of nums) {
-        if (numSet.has(num - 1)) continue;
+        if (numSet.has(num + 1)) continue;
 
         console.log("123");
 
         let counter = 1;
         let currNum = num;
 
-        while (numSet.has(++currNum)) {
+        while (numSet.has(--currNum)) {
             counter++;
         }
         longest = Math.max(longest, counter)
