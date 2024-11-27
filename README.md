@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0290-word-pattern) |
+| [0345-reverse-vowels-of-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0392-is-subsequence) |
 | [0516-longest-palindromic-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0516-longest-palindromic-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0680-valid-palindrome-ii) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
+| [0345-reverse-vowels-of-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0680-valid-palindrome-ii) |
 ## Greedy
