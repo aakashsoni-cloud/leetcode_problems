@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0128-longest-consecutive-sequence) |
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
+| [0485-max-consecutive-ones](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0485-max-consecutive-ones) |
 | [0605-can-place-flowers](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0605-can-place-flowers) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Two Pointers
