@@ -5,22 +5,25 @@
 var totalFruit = function (fruits) {
 
     let n = fruits.length;
-    let output = {};
+    let map = new Map();
     let l = 0;
     let maxLength = 0;
 
     for (let r = 0; r < n; r++) {
-        output[fruits[r]] = (output[fruits[r]] || 0) + 1;
+        const rigthFruit = fruits[r];
+        map.set(rigthFruit, map.get(rigthFruit) + 1 || 0);
 
-        if (Object.entries(output).length > 2) {
-            output[fruits[l]] -= 1;
-            if (output[fruits[l]] === 0) {
-                delete output[fruits[l]];
+        if (map.size > 2) {
+            const leftFruit = fruits[l];
+            if (map.get(leftFruit) === 0) {
+                map.delete(leftFruit);
+            } else {
+                map.set(leftFruit, map.get(leftFruit) - 1)
             }
             l++;
         }
 
-        if (Object.entries(output).length <= 2) {
+        if (map.size <= 2) {
             maxLength = Math.max(maxLength, r - l + 1)
         }
     }
