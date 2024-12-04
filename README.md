@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0290-word-pattern) |
 | [0424-longest-repeating-character-replacement](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0500-keyboard-row](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0500-keyboard-row) |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0940-fruit-into-baskets](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0940-fruit-into-baskets) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## String
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0500-keyboard-row](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0500-keyboard-row) |
 | [0516-longest-palindromic-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0516-longest-palindromic-subsequence) |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0647-palindromic-substrings](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0680-valid-palindrome-ii) |
 | [1250-longest-common-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1250-longest-common-subsequence) |
@@ -45,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
 | [0485-max-consecutive-ones](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0485-max-consecutive-ones) |
 | [0500-keyboard-row](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0500-keyboard-row) |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0605-can-place-flowers](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0605-can-place-flowers) |
 | [0940-fruit-into-baskets](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1046-max-consecutive-ones-iii) |
