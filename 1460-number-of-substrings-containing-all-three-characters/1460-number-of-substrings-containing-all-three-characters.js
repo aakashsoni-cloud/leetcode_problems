@@ -3,7 +3,6 @@
  * @return {number}
  */
 var numberOfSubstrings = function (s) {
-    // s = s.split("");
     let lastSeen = [-1, -1, -1];
     let cnt = 0;
 
