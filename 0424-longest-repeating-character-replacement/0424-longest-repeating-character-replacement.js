@@ -16,7 +16,7 @@ var characterReplacement = function (s, k) {
         let changes = (r - l + 1) - maxFreq;
 
         if (changes > k) {
-            char[s[l]]--;
+            char[s[l]] -= 1;
             l++;
         }
         maxLength = Math.max(maxLength, r - l + 1)
