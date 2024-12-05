@@ -4,9 +4,9 @@
  * @return {number}
  */
 var subarraySum = function (nums, k) {
-    
-    let max = 0;
 
+    // Better TC: O(N^2);
+    let max = 0;
     for (let i = 0; i < nums.length; i++) {
         let sum = 0;
         for (let j = i; j < nums.length; j++) {
