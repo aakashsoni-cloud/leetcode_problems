@@ -12,13 +12,15 @@ var characterReplacement = function (s, k) {
     for (let r = 0; r < s.length; r++) {
         char[s[r]] = (char[s[r]] || 0) + 1;
 
-        maxFreq = Math.max(maxFreq, char[s[r]])
+        maxFreq = Math.max(maxFreq, char[s[r]]);
+        let changes = (r - l + 1) - maxFreq;
 
-        if (r - l + 1 - maxFreq > k) {
-            char[s[l]] -= 1;
+        if (changes > k) {
+            char[s[l]]--;
             l++;
         }
         maxLength = Math.max(maxLength, r - l + 1)
+
     }
     return maxLength
 };
