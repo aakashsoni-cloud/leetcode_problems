@@ -4,16 +4,18 @@
  * @return {number[]}
  */
 var twoSum = function (nums, target) {
-    let indexMaps = {};
+    let hashMap = {};
+    let n = nums.length;
 
-    for (let i = 0; i < nums.length; i++) {
+    for (let i = 0; i <= n; i++) {
         let diff = target - nums[i];
 
-        if (indexMaps.hasOwnProperty(diff)) {
-            return [i, indexMaps[diff]];
+        if (diff in hashMap) {
+            return [i, hashMap[diff]];
         }
 
-        indexMaps[nums[i]] = i;
+        hashMap[nums[i]] = i;
+
     }
 
     return null;
