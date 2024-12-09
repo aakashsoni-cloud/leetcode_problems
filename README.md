@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0128-longest-consecutive-sequence) |
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0485-max-consecutive-ones) |
 | [0500-keyboard-row](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0500-keyboard-row) |
 | [0560-subarray-sum-equals-k](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0560-subarray-sum-equals-k) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0647-palindromic-substrings) |
