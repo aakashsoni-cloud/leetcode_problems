@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0128-longest-consecutive-sequence) |
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0204-count-primes) |
 | [0283-move-zeroes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0485-max-consecutive-ones) |
 | [0500-keyboard-row](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0500-keyboard-row) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0009-palindrome-number) |
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0204-count-primes) |
 | [1370-count-number-of-nice-subarrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 ## Dynamic Programming
 |  |
@@ -141,4 +143,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1034-subarrays-with-k-different-integers](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1034-subarrays-with-k-different-integers) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
