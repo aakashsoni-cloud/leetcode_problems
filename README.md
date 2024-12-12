@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Two Pointers
 |  |
 | ------- |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0011-container-with-most-water) |
 | [0605-can-place-flowers](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0605-can-place-flowers) |
 | [0680-valid-palindrome-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0680-valid-palindrome-ii) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Sorting
 |  |
 | ------- |
@@ -95,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0088-merge-sorted-array) |
 | [0242-valid-anagram](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0242-valid-anagram) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Math
 |  |
 | ------- |
@@ -127,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -135,10 +139,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Binary Search
 |  |
 | ------- |
 | [1046-max-consecutive-ones-iii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1046-max-consecutive-ones-iii) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Counting
 |  |
 | ------- |
