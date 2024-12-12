@@ -11,7 +11,7 @@ var maxProfit = function (prices) {
 
     while (r < n) {
         profit = prices[r] - prices[l];
-        if (prices[r] < prices[l]) {
+        if (prices[l] > prices[r]) {
             l = r;
         }
         maxProfit = Math.max(maxProfit, profit);
