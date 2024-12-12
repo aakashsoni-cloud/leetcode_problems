@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0009-palindrome-number) |
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0204-count-primes) |
+| [1013-fibonacci-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 ## Dynamic Programming
 |  |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0392-is-subsequence) |
 | [0516-longest-palindromic-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0647-palindromic-substrings) |
+| [1013-fibonacci-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1013-fibonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1250-longest-common-subsequence) |
 ## Union Find
 |  |
@@ -157,4 +159,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0204-count-primes) |
+## Recursion
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
