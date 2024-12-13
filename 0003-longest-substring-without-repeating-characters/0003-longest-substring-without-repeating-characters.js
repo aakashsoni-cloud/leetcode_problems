@@ -3,39 +3,26 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function (s) {
-    // sliding window and set
-    /*
-    let set = new Set()
-    let left = 0;
-    let maxSize = 0;
+    let hashMap = {};
+    let l = 0;
+    let r = 0;
 
-    for (let right = 0; right < s.length; right++) {
-        while (set.has(s[right])) {
-            set.delete(s[left]);
-            left++;
+    let maxLength = 0;
+
+    if (s.length == 1) return 1;
+    while (r < s.length) {
+        let rightChar = s[r];
+        hashMap[rightChar] = hashMap[rightChar] + 1 || 1;
+
+        while (hashMap[rightChar] > 1) {
+            let leftChar = s[l];
+            hashMap[leftChar]--;
+            l++;
         }
-        set.add(s[right]);
-        maxSize = Math.max(maxSize, right - left + 1);
-    }
-    */
+        maxLength = Math.max(maxLength, r - l + 1);
 
-    // SLiding Window and Hashing
-
-    let output = {};
-    let left = 0;
-
-    let maxSize = 0;
-
-    for (let rigth = 0; rigth < s.length; rigth++) {
-        output[s[rigth]] = (output[s[rigth]] || 0) + 1;
-
-        while (output[s[rigth]] > 1) {
-            output[s[left]] -= 1;
-            left++;
-        }
-
-        maxSize = Math.max(maxSize, rigth - left + 1)
+        r++;
     }
 
-    return maxSize;
+    return maxLength;
 };
