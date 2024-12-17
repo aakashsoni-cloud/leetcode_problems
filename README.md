@@ -175,4 +175,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0053-maximum-subarray) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0461-hamming-distance](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0461-hamming-distance) |
 <!---LeetCode Topics End-->
