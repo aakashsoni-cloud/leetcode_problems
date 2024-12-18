@@ -3,9 +3,9 @@
  * @return {number}
  */
 var maxDepth = function (s) {
-    let count = 0;
     let maxPar = 0;
     let stack = [];
+    if (s.length < 2) return 0;
     for (let char in s) {
         if (s[char] === "(") {
             stack.push(s[char]);
@@ -14,8 +14,5 @@ var maxDepth = function (s) {
         }
         maxPar = Math.max(maxPar, stack.length)
     }
-
-    console.log(stack);
-
     return maxPar;
 };
