@@ -5,16 +5,17 @@
 var maxDepth = function (s) {
     let count = 0;
     let maxPar = 0;
+    let stack = [];
     for (let char in s) {
-        console.log(s[char])
         if (s[char] === "(") {
-            count++;
+            stack.push(s[char]);
         } else if (s[char] === ")") {
-            count--;
+            stack.pop();
         }
-
-        maxPar = Math.max(maxPar, count)
+        maxPar = Math.max(maxPar, stack.length)
     }
+
+    console.log(stack);
 
     return maxPar;
 };
