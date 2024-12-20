@@ -3,19 +3,38 @@
  * @return {number}
  */
 var maximumCount = function (nums) {
-    let pos = 0;
-    let neg = 0;
-    let max = 0;
-    for (let i = 0; i < nums.length; i++) {
-        if (nums[i] < 0) {
-            pos++;
-        } else if (nums[i] > 0) {
-            neg++;
+    return Math.max(upperBound(nums), lowerBound(nums));
+
+};
+
+function upperBound(nums) {
+    let start = 0,
+        end = nums.length - 1;
+
+    while (start < end) {
+        let middle = Math.ceil((start + end) / 2);
+        if (nums[middle] < 0) {
+            start = middle;
+        } else {
+            end = middle - 1;
         }
     }
-    max = pos;
-    if (pos < neg) {
-        max = neg;
+    return nums[0] >= 0 ? 0 : start + 1;
+}
+
+function lowerBound(nums) {
+    let start = 0,
+        end = nums.length - 1;
+
+    while (start < end) {
+        let middle = Math.floor((start + end) / 2);
+        if (nums[middle] > 0) {
+            end = middle;
+        } else {
+            start = middle + 1;
+        }
     }
-    return max;
-};
+    return nums[nums.length - 1] <= 0 ? 0 : nums.length - start;
+}
+
+
