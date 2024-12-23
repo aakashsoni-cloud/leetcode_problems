@@ -10,7 +10,7 @@ var maxProfit = function (prices) {
     let r = 1; // Sell
 
     while (r <= n) {
-        profit = prices[r] - prices[r];
+        profit = prices[r] - prices[l];
         if (prices[l] > prices[r]) {
             l = r;
         }
