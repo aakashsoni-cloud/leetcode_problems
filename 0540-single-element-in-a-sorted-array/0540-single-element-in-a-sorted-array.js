@@ -46,13 +46,13 @@ var singleNonDuplicate = function (arr) {
         }
         // (even, odd) check for both -> eleminate the right half
         // at odd and check for left or at even check for right
-        if ((mid % 2 == 1 && arr[mid] !== arr[mid - 1]) || (mid % 2 == 0 && arr[mid] !== arr[mid + 1])) {
-            high = mid - 1;
+        if ((mid % 2 == 1 && arr[mid] == arr[mid - 1]) || (mid % 2 == 0 && arr[mid] == arr[mid + 1])) {
+            low = mid + 1;
         }
         // (odd, even) check for both -> eleminate the left half 
         // at odd and check for right or at even check for left
-        if ((mid % 2 == 1 && arr[mid] !== arr[mid + 1]) || (mid % 2 == 0 && arr[mid] !== arr[mid - 1])) {
-            low = mid + 1;
+        if ((mid % 2 == 1 && arr[mid] == arr[mid + 1]) || (mid % 2 == 0 && arr[mid] == arr[mid - 1])) {
+            high = mid - 1;
         }
     }
 };
