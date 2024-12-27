@@ -51,7 +51,7 @@ var singleNonDuplicate = function (arr) {
         }
         // (odd, even) check for both -> eleminate the left half 
         // at odd and check for right or at even check for left
-        if ((mid % 2 == 1 && arr[mid] == arr[mid + 1]) || (mid % 2 == 0 && arr[mid] == arr[mid - 1])) {
+        else {
             high = mid - 1;
         }
     }
