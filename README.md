@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0128-longest-consecutive-sequence) |
 | [0242-valid-anagram](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0268-missing-number) |
 | [0290-word-pattern](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0290-word-pattern) |
 | [0349-intersection-of-two-arrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0349-intersection-of-two-arrays) |
 | [0424-longest-repeating-character-replacement](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0424-longest-repeating-character-replacement) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0204-count-primes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0349-intersection-of-two-arrays) |
 | [0485-max-consecutive-ones](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0485-max-consecutive-ones) |
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0088-merge-sorted-array) |
 | [0242-valid-anagram](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0349-intersection-of-two-arrays) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Math
@@ -121,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0009-palindrome-number) |
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0204-count-primes) |
+| [0268-missing-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 ## Dynamic Programming
@@ -169,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0349-intersection-of-two-arrays) |
 | [0540-single-element-in-a-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0792-binary-search) |
@@ -206,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0268-missing-number) |
 | [0461-hamming-distance](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0461-hamming-distance) |
 ## Stack
 |  |
