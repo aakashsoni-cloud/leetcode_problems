@@ -4,22 +4,19 @@
  * @return {number[]}
  */
 var intersection = function (arr1, arr2) {
-    let n = arr1.length;
-    let m = arr2.length;
+    let mp = {};
 
-    let visited = Array.from(Array(m).fill(0));
-
-    let inter = new Array();
-
-    for (let i = 0; i < n; i++) {
-        for (let j = 0; j < m; j++) {
-            if (arr1[i] == arr2[j] && visited[j] == 0 && !inter.includes(arr1[i])) {
-                inter.push(arr1[i]);
-                visited[j] = 1;
-                break;
-            }
-        }
+    for (let num of arr1) {
+        mp[num] = (mp[num] || 0) + 1;
     }
 
-    return inter;
+    let res = [];
+
+    for (let num of arr2) {
+        if (mp[num]) {
+            res.push(num);
+            delete mp[num]
+        }
+    }
+    return res;
 };
