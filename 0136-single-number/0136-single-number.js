@@ -2,13 +2,19 @@
  * @param {number[]} nums
  * @return {number}
  */
-var singleNumber = function (nums) {
-    let n = nums.length;
-    let xor1 = 0, xor2 = 0;
+var singleNumber = function (num) {
+    let n = num.length;
+    let map = {};
 
     for (let i = 0; i <= n - 1; i++) {
-        xor2 = xor2 ^ nums[i];
+        map[num[i]] = (map[num[i]] || 0) + 1;
     }
 
-    return xor2
+    console.log(map)
+
+    for (let key of Object.keys(map)) {
+        if (map[key] == 1) {
+            return parseInt(key);
+        }
+    }
 };
