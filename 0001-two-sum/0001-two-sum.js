@@ -3,20 +3,13 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function (nums, target) {
-    let hashMap = {};
-    let n = nums.length;
-
-    for (let i = 0; i <= n; i++) {
-        let diff = target - nums[i];
-
-        if (diff in hashMap) {
-            return [i, hashMap[diff]];
+var twoSum = function (arr, target) {
+    let n = arr.length;
+    for (let i = 0; i < n; i++) {
+        for (let j = i+1; j < n; j++) {
+            if (arr[i] + arr[j] == target) {
+                return [i, j];
+            }
         }
-
-        hashMap[nums[i]] = i;
-
     }
-
-    return null;
 };
