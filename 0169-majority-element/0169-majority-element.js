@@ -64,9 +64,8 @@ var majorityElement = function (nums) {
     let count1 = 0;
     for (let i = 0; i < n; i++) {
         if (elem == nums[i]) count1++;
-    }
-
-    if (count1 > Math.floor(n / 2)) {
-        return elem;
+        if (count1 > Math.floor(n / 2)) {
+            return elem;
+        }
     }
 };
