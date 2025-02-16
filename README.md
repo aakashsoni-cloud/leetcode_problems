@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2047-find-a-peak-element-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2047-find-a-peak-element-ii) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Two Pointers
 |  |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0680-valid-palindrome-ii) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Greedy
 |  |
 | ------- |
@@ -229,4 +231,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0240-search-a-2d-matrix-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2047-find-a-peak-element-ii) |
+## Simulation
+|  |
+| ------- |
+| [2271-rearrange-array-elements-by-sign](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2271-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
