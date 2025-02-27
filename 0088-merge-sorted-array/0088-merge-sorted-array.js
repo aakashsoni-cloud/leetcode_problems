@@ -5,7 +5,8 @@
  * @param {number} n
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
-var merge = function (nums1, m, nums2, n) {
+var merge = function(nums1, m, nums2, n) {
+    let temp = [];
     let first = m - 1;
     let second = n - 1
     let alength = m + n - 1;
@@ -24,5 +25,4 @@ var merge = function (nums1, m, nums2, n) {
             }
         }
     }
-
 };
