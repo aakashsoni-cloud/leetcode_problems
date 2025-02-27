@@ -12,8 +12,6 @@ var findDuplicate = function (arr) {
     }
     while (slow !== fast);
 
-    console.log(slow, fast)
-
     fast = arr[0];
     while (slow !== fast) {
         slow = arr[slow];
