@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0035-search-insert-position) |
+| [0048-rotate-image](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0073-set-matrix-zeroes) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0268-missing-number) |
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0073-set-matrix-zeroes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2047-find-a-peak-element-ii) |
