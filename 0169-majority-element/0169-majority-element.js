@@ -69,20 +69,34 @@ var majorityElement = function (arr) {
     //     }
     // }
 
-    let n = arr.length;
-    let el = -1;
-    for (let i = 0; i < n; i++) {
-        let count = 1;
-        for (let j = i+1; j < n; j++) {
-            // console.log(arr[i], arr[j])
-            if (arr[i] == arr[j]) {
-                count++;
-            }
-        }
-        // console.log(count);
+    // let n = arr.length;
+    // let el = -1;
+    // for (let i = 0; i < n; i++) {
+    //     let count = 1;
+    //     for (let j = i+1; j < n; j++) {
+    //         // console.log(arr[i], arr[j])
+    //         if (arr[i] == arr[j]) {
+    //             count++;
+    //         }
+    //     }
+    //     // console.log(count);
 
-        if(count > Math.floor(n/2)) {
-            return arr[i];
+    //     if(count > Math.floor(n/2)) {
+    //         return arr[i];
+    //     }
+    // }
+
+    // hashing 
+    let n = arr.length;
+    let hash = {};
+
+    for (let i = 0; i < n; i++) {
+        hash[arr[i]] = (hash[arr[i]] || 0) + 1;
+    }
+
+    for (let key of Object.keys(hash)) {
+        if (hash[key] > Math.floor(n / 2)) {
+            return parseInt(key);
         }
     }
 };
