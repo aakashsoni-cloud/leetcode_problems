@@ -85,18 +85,26 @@ var majorityElement = function (arr) {
     //         return arr[i];
     //     }
     // }
-
-    // hashing 
     let n = arr.length;
-    let hash = {};
+    let count = 0;
+    let elem;
 
     for (let i = 0; i < n; i++) {
-        hash[arr[i]] = (hash[arr[i]] || 0) + 1;
+        if (count == 0) {
+            count = 1;
+            elem = arr[i];
+        } else if (elem == arr[i]) {
+            count++;
+        } else {
+            count--;
+        }
     }
 
-    for (let key of Object.keys(hash)) {
-        if (hash[key] > Math.floor(n / 2)) {
-            return parseInt(key);
+    let count1 = 0;
+    for (let i = 0; i < n; i++) {
+        if (elem == arr[i]) count1++;
+        if (count1 > Math.floor(n / 2)) {
+            return elem;
         }
     }
 };
