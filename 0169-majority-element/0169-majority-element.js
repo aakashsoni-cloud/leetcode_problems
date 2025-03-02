@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var majorityElement = function (nums) {
+var majorityElement = function (arr) {
     // nums.sort((a, b) => a - b);// O(nlogn)
     // let n = nums.length;
     // let l = 0;
@@ -46,26 +46,43 @@ var majorityElement = function (nums) {
 
     // Moore's Vooting Alogo
 
-    let n = nums.length;
-    let count = 0;
-    let elem;
+    // let n = nums.length;
+    // let count = 0;
+    // let elem;
 
+    // for (let i = 0; i < n; i++) {
+    //     if (count == 0) {
+    //         count = 1;
+    //         elem = nums[i];
+    //     } else if (elem == nums[i]) {
+    //         count++;
+    //     } else {
+    //         count--;
+    //     }
+    // }
+
+    // let count1 = 0;
+    // for (let i = 0; i < n; i++) {
+    //     if (elem == nums[i]) count1++;
+    //     if (count1 > Math.floor(n / 2)) {
+    //         return elem;
+    //     }
+    // }
+
+    let n = arr.length;
+    let el = -1;
     for (let i = 0; i < n; i++) {
-        if (count == 0) {
-            count = 1;
-            elem = nums[i];
-        } else if (elem == nums[i]) {
-            count++;
-        } else {
-            count--;
+        let count = 1;
+        for (let j = i+1; j < n; j++) {
+            // console.log(arr[i], arr[j])
+            if (arr[i] == arr[j]) {
+                count++;
+            }
         }
-    }
+        // console.log(count);
 
-    let count1 = 0;
-    for (let i = 0; i < n; i++) {
-        if (elem == nums[i]) count1++;
-        if (count1 > Math.floor(n / 2)) {
-            return elem;
+        if(count > Math.floor(n/2)) {
+            return arr[i];
         }
     }
 };
