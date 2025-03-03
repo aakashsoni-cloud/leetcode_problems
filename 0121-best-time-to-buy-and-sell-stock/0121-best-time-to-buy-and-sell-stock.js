@@ -19,7 +19,7 @@ var maxProfit = function (prices) {
     let n = prices.length;
 
     let l = 0;
-    let r = 0;
+    let r = 1;
 
     while (r < n) {
         let profit = prices[r] - prices[l];
