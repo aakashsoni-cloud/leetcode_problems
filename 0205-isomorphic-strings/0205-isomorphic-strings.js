@@ -6,6 +6,9 @@
 var isIsomorphic = function (s, t) {
     let hashMap = {};
 
+    if(s.length !== t.length) {
+        return false;
+    }
     let n = s.length;
 
     for (let i = 0; i < n; i++) {
@@ -16,6 +19,7 @@ var isIsomorphic = function (s, t) {
             }
         } else if (Object.values(hashMap).includes(t[i])) {
             return false;
+            break;
         }
         hashMap[s[i]] = t[i];
 
