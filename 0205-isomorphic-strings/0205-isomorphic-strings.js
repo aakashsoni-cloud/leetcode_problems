@@ -19,6 +19,7 @@ var isIsomorphic = function (s, t) {
             }
         } else if (Object.values(hashMap).includes(t[i])) {
             return false;
+            break;
         }
         hashMap[s[i]] = t[i];
 
