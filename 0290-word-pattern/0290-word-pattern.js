@@ -4,28 +4,25 @@
  * @return {boolean}
  */
 var wordPattern = function (pattern, s) {
-    let obj = {};
+    let map = {};
     pattern = pattern.split("");
     s = s.split(" ");
-    let i = 0;
+    let n = s.length;
 
     if (pattern.length !== s.length) return false;
 
-    for (let letter of pattern) {
-        if (obj[letter]) {
-            if (obj[letter] != s[i]) {
+    for (let i = 0; i < n; i++) {
+        if (map[pattern[i]]) {
+            if (map[pattern[i]] != s[i]) {
                 return false;
             }
         } else {
-            if (!(Object.values(obj)).includes(s[i])) {
-                obj[letter] = s[i];
+            if (!(Object.values(map).includes(s[i]))) {
+                map[pattern[i]] = s[i];
             } else {
                 return false;
             }
         }
-        i++;
     }
-
-    return true;
-
+    return true
 };
