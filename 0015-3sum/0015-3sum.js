@@ -24,26 +24,27 @@ var threeSum = function (nums) {
     // return [...result].map(JSON.parse);
     let n = nums.length;
     let res = [];
-
     nums.sort((a, b) => a - b)
 
     for (let i = 0; i < n; i++) {
-        if(nums[i] > 0) break;
-        if (i > 0 && nums[i] == nums[i - 1]) continue;
-        let l = i + 1;
-        let r = n - 1;
+        if (i > 0 && nums[i] == nums[i - 1]) continue; // conitnue of already visted
+
+        let l = i + 1, r = n - 1;
+
         while (l < r) {
             let sum = nums[i] + nums[l] + nums[r];
+
             if (sum == 0) {
                 res.push([nums[i], nums[l], nums[r]])
                 l++;
                 r--;
-                while (l < r && nums[l] == nums[l - 1]) l++;
-                while (l < r && nums[r] == nums[r + 1]) r--;
+                while (l < r && nums[l] == nums[l - 1]) l++; // move forward if have same on previous position
+                while (l < r && nums[r] == nums[r + 1]) r--; // move backward if have same on previous position
+
             } else if (sum < 0) {
-                l++;
+                l++; // Increase to rigth if sum is less than 0 to make it 0
             } else {
-                r--;
+                r--; // Decrease to left if sum is more than 0 to make it 0
             }
         }
     }
