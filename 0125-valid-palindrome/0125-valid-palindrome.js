@@ -3,18 +3,18 @@
  * @return {boolean}
  */
 var isPalindrome = function (s) {
-    if (s.length === 0) {
-        return false;
-    }
-    s = s.toLowerCase().replace(/[^a-z0-9]/gi, '');
+    let str = s.replace(/[:,_-\W]/g, "").toLowerCase();
+    let n = str.length;
 
-    let start = 0;
-    let end = s.length - 1;
+    let l = 0;
+    let r = n - 1;
 
-    while (start <= end) {
-        if (s[start] !== s[end]) return false;
-        start++;
-        end--;
+    while (l <= r) {
+        if (str[l] !== str[r]) {
+            return false;
+        }
+        l++;
+        r--;
     }
     return true;
 };
