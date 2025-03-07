@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0204-count-primes) |
+| [0238-product-of-array-except-self](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0283-move-zeroes) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1046-max-consecutive-ones-iii) |
