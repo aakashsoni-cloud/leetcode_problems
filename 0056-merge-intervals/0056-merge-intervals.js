@@ -5,13 +5,13 @@
 var merge = function (arr) {
     let n = arr.length;
     arr.sort((a, b) => a[0] - b[0]);
-    const ans = [];
+    const res = [];
 
     for (let i = 0; i < n; i++) {
         let start = arr[i][0];
         let end = arr[i][1];
 
-        if (ans.length && end <= ans[ans.length - 1][1]) {
+        if (res.length && end <= res[res.length - 1][1]) {
             continue;
         }
 
@@ -22,9 +22,9 @@ var merge = function (arr) {
                 break;
             }
         }
-        ans.push([start, end]);
+        res.push([start, end]);
     }
 
-    return ans;
+    return res;
 
 };
