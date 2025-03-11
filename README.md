@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0605-can-place-flowers) |
 | [0792-binary-search](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0792-binary-search) |
 | [0940-fruit-into-baskets](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0940-fruit-into-baskets) |
+| [0954-maximum-sum-circular-subarray](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0954-maximum-sum-circular-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1046-max-consecutive-ones-iii) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0392-is-subsequence) |
 | [0516-longest-palindromic-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0647-palindromic-substrings) |
+| [0954-maximum-sum-circular-subarray](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0954-maximum-sum-circular-subarray) |
 | [1013-fibonacci-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1013-fibonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1250-longest-common-subsequence) |
 ## Union Find
@@ -249,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
+| [0954-maximum-sum-circular-subarray](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0954-maximum-sum-circular-subarray) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -277,4 +280,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Queue
+|  |
+| ------- |
+| [0954-maximum-sum-circular-subarray](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0954-maximum-sum-circular-subarray) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0954-maximum-sum-circular-subarray](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0954-maximum-sum-circular-subarray) |
 <!---LeetCode Topics End-->
