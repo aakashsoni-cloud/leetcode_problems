@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0268-missing-number) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0050-powx-n) |
 | [1013-fibonacci-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
