@@ -10,10 +10,10 @@ var maxProduct = function (nums) {
     if (n == 1) return nums[0]
 
     for (let i = 0; i < n; i++) {
-        currPro = nums[i];
-        maxPro = Math.max(maxPro, currPro);
+        currPro = 1;
+        // maxPro = Math.max(maxPro, currPro);
 
-        for (let j = i + 1; j < n; j++) {
+        for (let j = i; j < n; j++) {
             currPro *= nums[j];
             maxPro = Math.max(maxPro, currPro);
         }
