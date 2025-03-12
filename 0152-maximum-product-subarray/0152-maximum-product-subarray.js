@@ -4,19 +4,19 @@
  */
 var maxProduct = function (nums) {
     let n = nums.length;
-    let currPro = 1;
-    let maxPro = -1;
-
-    if (n == 1) return nums[0]
+    let prefix = 1;
+    let suffix = 1;
+    let maxPro = Number.MIN_SAFE_INTEGER;
 
     for (let i = 0; i < n; i++) {
-        currPro = 1;
-        // maxPro = Math.max(maxPro, currPro);
+        if (prefix == 0) prefix = 1;
+        if (suffix == 0) suffix = 1;
 
-        for (let j = i; j < n; j++) {
-            currPro *= nums[j];
-            maxPro = Math.max(maxPro, currPro);
-        }
+        prefix = prefix * nums[i];
+        suffix = suffix * nums[n - i - 1];
+
+        maxPro = Math.max(maxPro, Math.max(prefix, suffix));
     }
+
     return maxPro;
 };
