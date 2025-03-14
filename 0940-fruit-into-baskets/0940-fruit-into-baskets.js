@@ -12,9 +12,7 @@ var totalFruit = function (fruits) {
     while (r <= n) {
         basket.set(fruits[r], (basket.get(fruits[r]) || 0) + 1);
 
-        console.log(basket)
-
-        while (basket.size > 2) {
+        if (basket.size > 2) {
             basket.set(fruits[l], basket.get(fruits[l]) - 1);
             if (basket.get(fruits[l]) == 0) {
                 basket.delete(fruits[l]);
