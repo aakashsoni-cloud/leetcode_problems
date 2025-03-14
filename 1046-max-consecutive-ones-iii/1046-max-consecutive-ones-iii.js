@@ -16,7 +16,7 @@ var longestOnes = function (nums, k) {
             zeroCount++;
         }
 
-        if (zeroCount > k) {
+        while (zeroCount > k) {
             if (nums[l] == 0) {
                 zeroCount--;
             }
