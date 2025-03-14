@@ -20,7 +20,9 @@ var totalFruit = function (fruits) {
             l++;
         }
 
-        maxItem = Math.max(maxItem, r - l + 1);
+        if (basket.size <= 2) {
+            maxItem = Math.max(maxItem, r - l + 1);
+        }
         r++;
     }
     return maxItem
