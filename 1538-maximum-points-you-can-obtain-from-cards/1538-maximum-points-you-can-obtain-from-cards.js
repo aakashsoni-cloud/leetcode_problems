@@ -3,22 +3,26 @@
  * @param {number} k
  * @return {number}
  */
-var maxScore = function (arr, k) {
-    let lsum = 0;
-    let rsum = 0;
-    let right = arr.length - 1;
-    let maxSum = 0;
+var maxScore = function (cardPoints, k) {
+    let l = k - 1;
+    let r = cardPoints.length - 1;
 
-    for (let i = 0; i <= k - 1; i++) {
-        lsum += arr[i];
+    let lSum = 0;
+    let rSum = 0;
+
+    for (let i = 0; i < k; i++) {
+        lSum += cardPoints[i];
     }
-    maxSum = lsum;
 
-    for (let i = k - 1; i >= 0; i--) {
-        lsum -= arr[i];
-        rsum += arr[right];
-        right--;
-        maxSum = Math.max(maxSum, lsum + rsum)
+    let maxSum = lSum;
+
+    while (l >= 0) {
+        lSum -= cardPoints[l];
+        rSum += cardPoints[r];
+        l--;
+        r--;
+
+        maxSum = Math.max(maxSum, lSum + rSum);
     }
 
     return maxSum;
