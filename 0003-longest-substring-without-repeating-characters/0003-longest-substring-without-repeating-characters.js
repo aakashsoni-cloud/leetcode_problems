@@ -11,9 +11,9 @@ var lengthOfLongestSubstring = function (s) {
     let maxLen = 0;
 
     while (r <= n) {
-        hash[s[r]] = (hash[s[r]] + 1) || 0;
+        hash[s[r]] = (hash[s[r]] + 1) || 1;
 
-        while (hash[s[r]] > 0) {
+        while (hash[s[r]] > 1) {
             hash[s[l]]--;
             l++
         }
