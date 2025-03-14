@@ -10,7 +10,7 @@ var lengthOfLongestSubstring = function (s) {
     let r = 0;
     let maxLength = 0
 
-    while (r < n) {
+    while (r <= n) {
         while (set.has(s[r])) {
             set.delete(s[l]);
             l++;
