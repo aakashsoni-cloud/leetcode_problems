@@ -12,12 +12,12 @@ var longestCommonPrefix = function (strs) {
         let word = strs[i];
 
         while (prefix !== word.substring(0, preflen)) {
-            preflen--;
+            preflen--; // reduce and check 
 
-            if (preflen == 0) {
+            if (preflen == 0) {// base case
                 prefix = "";
             }
-            prefix = prefix.substring(0, preflen);
+            prefix = prefix.substring(0, preflen); // to Reduce the string
         }
     }
     return prefix
