@@ -3,12 +3,25 @@
  * @return {boolean}
  */
 var isPalindrome = function (s) {
+    // s = s.replace(/[:,_-\W]/g, "").toLowerCase();
+    // let n = s.length;
+
+    // let l = 0;
+    // let r = n - 1;
+
+    // while (l <= r) {
+    //     if (s[l] !== s[r]) {
+    //         return false;
+    //     }
+    //     l++;
+    //     r--;
+    // }
+    // return true;
+
     s = s.replace(/[:,_-\W]/g, "").toLowerCase();
     let n = s.length;
 
-    let l = 0;
-    let r = n - 1;
-
+    let l = 0, r = n - 1;
     while (l <= r) {
         if (s[l] !== s[r]) {
             return false;
@@ -16,5 +29,5 @@ var isPalindrome = function (s) {
         l++;
         r--;
     }
-    return true;
+    return true
 };
