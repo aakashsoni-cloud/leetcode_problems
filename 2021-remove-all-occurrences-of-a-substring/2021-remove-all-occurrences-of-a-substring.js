@@ -4,14 +4,18 @@
  * @return {string}
  */
 var removeOccurrences = function (s, part) {
-    let newStr
-    let index = s.indexOf(part);
-    while (index >= 0) {
-        console.log(index)
-        s = s.substring(0, index) + s.substring(index + part.length);
-        console.log(s)
-        index = s.indexOf(part);
-    }
-    return s;
+    let stack = [];
+    let targetLength = part.length;
+    let targetEndChar = part[part.length - 1];
 
+    for (let char of s) {
+        stack.push(char);
+
+        if (char == targetEndChar && stack.length >= targetLength) {
+            if (stack.slice(-targetLength).join('') == part) {
+                stack.length -= targetLength
+            }
+        }
+    }
+    return stack.join('')
 };
