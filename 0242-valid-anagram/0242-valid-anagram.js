@@ -4,16 +4,16 @@
  * @return {boolean}
  */
 var isAnagram = function (s, t) {
-    let hash = {};
+    let letters = {};
     if (s.length !== t.length) return false;
 
     for (let i = 0; i < s.length; i++) {
-        hash[s[i]] = (hash[s[i]] || 0) + 1;
-        hash[t[i]] = (hash[t[i]] || 0) - 1;
+        letters[s[i]] = (letters[s[i]] || 0) + 1; // increment the count 
+        letters[t[i]] = (letters[t[i]] || 0) - 1; // if found same decrease the count, if not found any letter already from s make it -1
     }
 
-    for (let letter in hash) {
-        if (hash[letter] !== 0) return false;
+    for (let letter in letters) {
+        if (letters[letter] !== 0) return false;
     }
     return true
 };
