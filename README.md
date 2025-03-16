@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1542-consecutive-characters](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1542-consecutive-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Array
 |  |
 | ------- |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1078-remove-outermost-parentheses](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Matrix
 |  |
 | ------- |
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0054-spiral-matrix) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2271-rearrange-array-elements-by-sign) |
 ## String Matching
 |  |
