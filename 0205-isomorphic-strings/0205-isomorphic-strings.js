@@ -6,7 +6,7 @@
 var isIsomorphic = function (s, t) {
     let hashMap = {};
 
-    if(s.length !== t.length) {
+    if (s.length !== t.length) {
         return false;
     }
     let n = s.length;
@@ -22,7 +22,6 @@ var isIsomorphic = function (s, t) {
             break;
         }
         hashMap[s[i]] = t[i];
-
     }
     return true;
 
