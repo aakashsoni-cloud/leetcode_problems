@@ -10,18 +10,19 @@ var threeSum = function (nums) {
     // for (let i = 0; i < n; i++) {
     //     let seen = new Set();
     //     for (let j = i + 1; j < n; j++) {
-    //         let target = -(nums[i] + nums[j]);
+    //         let target = nums[i] + nums[j]);
 
-    //         if (!hashSet.has(target)) {
+    //         if (!seen.has(target)) {
     //             seen.add(nums[j]);
     //         } else {
-    //             let temp = [nums[i], nums[j], a];
+    //             let temp = [nums[i], nums[j], target];
     //             temp.sort((a, b) => a - b)
     //             result.add(JSON.stringify(temp))
     //         }
     //     }
     // }
     // return [...result].map(JSON.parse);
+
     let n = nums.length;
     let res = [];
     nums.sort((a, b) => a - b)
