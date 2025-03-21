@@ -3,51 +3,30 @@
  * @return {number}
  */
 var longestConsecutive = function (nums) {
+    let n = nums.length;
 
-    // OPTIMAL O(n)
-    if (nums.length === 0) return 0;
+    let seen = new Set();
 
-    let numSet = new Set(nums);
-    let longest = 0;
-
-    console.log(numSet)
-
-    for (const num of nums) {
-        if (numSet.has(num + 1)) continue;
-
-        let counter = 1;
-        let currNum = num;
-
-        while (numSet.has(--currNum)) {
-            counter++;
-        }
-        longest = Math.max(longest, counter)
+    for (let i = 0; i < n; i++) {
+        seen.add(nums[i]);
     }
 
-    return longest;
-    
+    let maxSeq = 0
 
-    /* 
-    BETTER O(nlogn + n)
-    let longest = 1;
-    let counter = 0;
-    let lastSmaller = Number.MIN_VALUE;
+    for (const num of seen) {
+        if (!seen.has(num - 1)) {
+            let count = 1;
+            let x = num;
 
-    nums.sort((a,b) => a-b);
+            while (seen.has(x + 1)) {
+                x++;
+                count++;
+            }
 
-    for (let i = 0; i < nums.length; i++) {
-        if (nums[i] - 1 == lastSmaller) {
-            counter += 1;
-            lastSmaller = nums[i];
-        }
-        else if (lastSmaller != nums[i]) {
-            counter = 1;
-            lastSmaller = nums[i];
+            maxSeq = Math.max(maxSeq, count);
         }
 
-        longest = Math.max(longest, counter);
     }
-    return longest;
 
-    */
+    return maxSeq;
 };
