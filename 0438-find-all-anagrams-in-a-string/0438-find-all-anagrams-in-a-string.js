@@ -4,40 +4,28 @@
  * @return {number[]}
  */
 
-var isSameMap = function (a, b) {
-    if (Object.keys(a).length !== Object.keys(b).length) return false;
-    for (let key in a) {
-        if (a[key] !== b[key]) return false;
-    }
-    return true;
-}
 var findAnagrams = function (s, p) {
     let n = s.length;
     let m = p.length;
-    let seen = {};
-    let letters = {};
+    let seen = Array.from(Array(26).fill(0));
+    let letters = Array.from(Array(26).fill(0));
 
     for (let i = 0; i < m; i++) {
-        seen[p[i]] = (seen[p[i]] || 0) + 1
+        seen[p.charCodeAt(i) - 97]++;
     }
 
-    let l = 0;
-    let r = 0
+    let l = 0; // left pointer
+    let r = 0; // right pointer
     let res = [];
 
     while (r < n) {
-        let rightChar = s[r]
-        letters[rightChar] = (letters[rightChar] || 0) + 1;
-
+        letters[s.charCodeAt(r) - 97]++;
         if (r - l + 1 > m) {
-            let leftChar = s[l];
-            letters[leftChar]--;
-            if (letters[leftChar] == 0) delete letters[leftChar];
+            letters[s.charCodeAt(l) - 97]--;
             l++;
         }
-
         if (r - l + 1 == m) {
-            if (isSameMap(letters, seen)) {
+            if (JSON.stringify(letters) === JSON.stringify(seen)) {
                 res.push(l);
             }
         }
