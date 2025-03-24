@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0290-word-pattern) |
 | [0349-intersection-of-two-arrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0349-intersection-of-two-arrays) |
 | [0424-longest-repeating-character-replacement](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0500-keyboard-row](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0500-keyboard-row) |
 | [0560-subarray-sum-equals-k](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0560-subarray-sum-equals-k) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0599-minimum-index-sum-of-two-lists) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0500-keyboard-row](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0500-keyboard-row) |
 | [0516-longest-palindromic-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0516-longest-palindromic-subsequence) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0599-minimum-index-sum-of-two-lists) |
@@ -202,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0940-fruit-into-baskets](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1034-subarrays-with-k-different-integers) |
