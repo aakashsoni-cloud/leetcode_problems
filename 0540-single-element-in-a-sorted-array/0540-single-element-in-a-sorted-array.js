@@ -2,38 +2,12 @@
  * @param {number[]} nums
  * @return {number}
  */
-var singleNonDuplicate = function (arr) {
-    // Approch 1 Linear Search TC O(N)
-    /*
-    let n = arr.length;
-    if (n === 1) return arr[0];
-    for (let i = 0; i <= n - 1; i++) {
-        if (i == 0) {
-            if (arr[i] !== arr[i + 1]) {
-                return arr[i];
-            }
-        }
-        else if (i == n) {
-            if (arr[n - 1] !== arr[n - 2]) {
-                return arr[i];
-            }
-        }
-        else {
-            if (arr[i] !== arr[i - 1] && arr[i] !== arr[i + 1]) {
-                return arr[i]
-            }
-        }
-    }
-    */
+var singleNonDuplicate = function (nums) {
+    let n = nums.length;
 
-    // Approch 2 Binary Search
-
-    let n = arr.length;
-
-    if (n === 1) return arr[0];
-    // take first and last condition out first
-    if (arr[0] !== arr[1]) return arr[0];
-    if (arr[n - 1] !== arr[n - 2]) return arr[n - 1];
+    if (n == 1) return nums[0];
+    if (nums[0] !== nums[1]) return nums[0];
+    if (nums[n - 1] !== nums[n - 2]) return nums[n - 1];
 
     let low = 1;
     let high = n - 2;
@@ -41,19 +15,14 @@ var singleNonDuplicate = function (arr) {
     while (low <= high) {
         let mid = Math.floor((low + high) / 2);
 
-        if (arr[mid] !== arr[mid + 1] && arr[mid] !== arr[mid - 1]) {
-            return arr[mid]
+        if (nums[mid] !== nums[mid - 1] && nums[mid + 1] !== nums[mid]) {
+            return nums[mid];
         }
-        // (even, odd) check for both -> eleminate the right half
-        // at odd and check for left or at even check for right
-        if ((mid % 2 == 1 && arr[mid] == arr[mid - 1]) || (mid % 2 == 0 && arr[mid] == arr[mid + 1])) {
+
+        if ((mid % 2 == 0 && nums[mid] == nums[mid + 1]) || (mid % 2 == 1 && nums[mid] == nums[mid - 1])) {
             low = mid + 1;
-        }
-        // (odd, even) check for both -> eleminate the left half 
-        // at odd and check for right or at even check for left
-        else {
+        } else {
             high = mid - 1;
         }
     }
-    return -1;
 };
