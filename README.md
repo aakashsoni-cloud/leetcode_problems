@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0349-intersection-of-two-arrays) |
+| [0410-split-array-largest-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0485-max-consecutive-ones) |
 | [0500-keyboard-row](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0500-keyboard-row) |
 | [0540-single-element-in-a-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0540-single-element-in-a-sorted-array) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0410-split-array-largest-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0410-split-array-largest-sum) |
 | [0605-can-place-flowers](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0605-can-place-flowers) |
 | [0680-valid-palindrome-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0680-valid-palindrome-ii) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -192,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0152-maximum-product-subarray](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0152-maximum-product-subarray) |
 | [0392-is-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0392-is-subsequence) |
+| [0410-split-array-largest-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0410-split-array-largest-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0647-palindromic-substrings) |
 | [0954-maximum-sum-circular-subarray](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0954-maximum-sum-circular-subarray) |
@@ -224,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0238-product-of-array-except-self) |
+| [0410-split-array-largest-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1046-max-consecutive-ones-iii) |
@@ -245,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0349-intersection-of-two-arrays) |
+| [0410-split-array-largest-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0882-peak-index-in-a-mountain-array) |
