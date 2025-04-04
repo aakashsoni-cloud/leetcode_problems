@@ -12,7 +12,7 @@ var reverse = function (x) {
         x = Math.floor(x / 10);
 
         if (rev > Math.floor((2 ** 31 - 1) / 10) ||
-            rev === Math.ceil((2 ** 31 - 1) / 10) && digit > 7) {
+            rev === Math.ceil((2 ** 31 - 1) / 10)) {
             return 0;
         }
 
