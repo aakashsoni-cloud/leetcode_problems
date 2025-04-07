@@ -19,6 +19,4 @@ var reverse = function (x) {
         rev = rev * 10 + digit;
     }
     return sign * rev;
-
-    // return sign * parseInt(num.join(""))
 };
