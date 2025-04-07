@@ -6,21 +6,21 @@
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
 var merge = function (nums1, m, nums2, n) {
-    let first = m - 1;
-    let second = n - 1;
+    let i = m - 1;
+    let j = n - 1;
     let total = m + n - 1;
 
     if (n == 0) {
-        nums1 = nums1
+        nums1 = nums1;
     } else {
-        while (second >= 0) {
-            if (nums1[first] >= nums2[second] && first >= 0) {
-                nums1[total] = nums1[first];
-                first--;
+        while (j >= 0) {
+            if (nums1[i] > nums2[j] && i >= 0) {
+                nums1[total] = nums1[i];
+                i--;
                 total--;
             } else {
-                nums1[total] = nums2[second];
-                second--;
+                nums1[total] = nums2[j];
+                j--;
                 total--;
             }
         }
