@@ -4,19 +4,25 @@
  * @return {number[]}
  */
 var intersection = function (arr1, arr2) {
-    let mp = {};
+    arr1.sort((a, b) => a - b);
+    arr2.sort((a, b) => a - b);
 
-    for (let num of arr1) {
-        mp[num] = (mp[num] || 0) + 1;
-    }
-
+    let i = 0, j = 0;
     let res = [];
 
-    for (let num of arr2) {
-        if (mp[num]) {
-            res.push(num);
-            delete mp[num]
+    while (i < arr1.length && j < arr2.length) {
+        if (arr1[i] < arr2[j]) {
+            i++;
+        } else if (arr1[i] > arr2[j]) {
+            j++;
+        } else {
+            if (res.length === 0 || res[res.length - 1] !== arr1[i]) {
+                res.push(arr1[i]);
+            }
+            i++;
+            j++;
         }
     }
+
     return res;
 };
