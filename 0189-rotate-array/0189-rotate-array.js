@@ -5,7 +5,7 @@
  */
 
 function rotateArray(arr, low, high) {
-    while (low < high) {
+    while (low <= high) {
         [arr[low], arr[high]] = [arr[high], arr[low]]
         low++;
         high--;
