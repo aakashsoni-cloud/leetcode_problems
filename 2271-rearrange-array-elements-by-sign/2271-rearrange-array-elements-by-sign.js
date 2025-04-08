@@ -2,20 +2,22 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-var rearrangeArray = function (nums) {
-    let positiveIndex = 0;
-    let negativeIndex = 1;
-    let n = nums.length;
+var rearrangeArray = function (num) {
+    let n = num.length;
 
-    let ans = new Array();
+    let posInd = 0;
+    let negInd = 1;
+
+    let ans = new Array(n);
     for (let i = 0; i < n; i++) {
-        if (nums[i] < 0) {
-            ans[negativeIndex] = nums[i];
-            negativeIndex += 2;
+        if (num[i] > 0) {
+            ans[posInd] = num[i];
+            posInd += 2;
         } else {
-            ans[positiveIndex] = nums[i];
-            positiveIndex += 2;
+            ans[negInd] = num[i];
+            negInd += 2;
         }
     }
+
     return ans;
 };
