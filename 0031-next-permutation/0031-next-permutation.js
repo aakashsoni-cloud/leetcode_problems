@@ -2,35 +2,38 @@
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-var nextPermutation = function (num) {
-    let findIndex = -1;
-    let n = num.length;
+var nextPermutation = function (nums) {
+    let n = nums.length;
+    let index = -1;
 
     for (let i = n - 2; i >= 0; i--) {
-        if (num[i] < num[i + 1]) {
-            findIndex = i;
+        if (nums[i] < nums[i + 1]) {
+            index = i;
             break;
         }
     }
 
-    // last lexicographical largest
-    if (findIndex == -1) {
-        num.reverse();
-        return num;
+    if (index == -1) {
+        reverse(nums, 0, n - 1);
+        return nums;
     }
 
-    for (let i = n - 1; i > findIndex; i--) {
-        if (num[i] > num[findIndex]) {
-            [num[i], num[findIndex]] = [num[findIndex], num[i]];
+    for (let i = n - 1; i > index; i--) {
+        if (nums[i] > nums[index]) {
+            [nums[i], nums[index]] = [nums[index], nums[i]];
             break;
         }
     }
 
-    num.splice(
-        findIndex + 1,
-        n - findIndex - 1,
-        ...num.slice(findIndex + 1).reverse()
-    );
-
-    return num;
+    reverse(nums, index + 1, n - 1)
+    return nums;
 };
+
+var reverse = function (arr, start, end) {
+    while (start < end) {
+        [arr[start], arr[end]] = [arr[end], arr[start]];
+        start++;
+        end--;
+    }
+    return arr;
+}
