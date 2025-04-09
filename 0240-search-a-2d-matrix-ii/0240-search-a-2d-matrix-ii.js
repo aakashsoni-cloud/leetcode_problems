@@ -3,14 +3,22 @@
  * @param {number} target
  * @return {boolean}
  */
-
 var searchMatrix = function (matrix, target) {
-    let n = matrix.length; // row
-    let m = matrix[0].length; // col
+    // Brute -> O(N^2)
+
+    // Optimise -> 
+
+    let n = matrix.length;
+    let m = matrix[0].length;
+
     let row = 0;
     let col = m - 1;
+
     while (row < n && col >= 0) {
-        if (matrix[row][col] == target) return true;
+
+        if (matrix[row][col] == target) {
+            return true;
+        }
 
         if (matrix[row][col] < target) {
             row = row + 1;
@@ -18,5 +26,7 @@ var searchMatrix = function (matrix, target) {
             col = col - 1;
         }
     }
+
     return false;
+
 };
