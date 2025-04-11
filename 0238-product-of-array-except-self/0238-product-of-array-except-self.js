@@ -5,13 +5,12 @@
 var productExceptSelf = function (nums) {
     let n = nums.length;
     let prefPro = [], sufPro = []
-    prefPro[0] = [1];
-    sufPro[n - 1] = [1];
+    prefPro[0] = 1;
+    sufPro[n - 1] = 1;
 
     for (let i = 1; i < n; i++) {
         prefPro[i] = prefPro[i - 1] * nums[i - 1];
     }
-
 
     let sufProduct = 1;
 
@@ -19,8 +18,6 @@ var productExceptSelf = function (nums) {
         sufProduct *= nums[i + 1];
         sufPro[i] = sufProduct;
     }
-
-    console.log(sufPro)
 
     let result = []
 
