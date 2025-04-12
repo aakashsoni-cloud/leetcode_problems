@@ -17,12 +17,11 @@ var candy = function (ratings) {
         }
     }
 
-    let current = 1, right = 1;
+    let current = 1;
     let sum = Math.max(1, leftNeigh[n - 1]);
     for (let i = n - 2; i >= 0; i--) {
         if (ratings[i] > ratings[i + 1]) {
             current += 1;
-            right = current;
         } else {
             current = 1;
         }
