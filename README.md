@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0035-search-insert-position) |
+| [0042-trapping-rain-water](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0049-group-anagrams) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0125-valid-palindrome) |
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0055-jump-game) |
@@ -319,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0042-trapping-rain-water) |
 | [1078-remove-outermost-parentheses](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
@@ -366,4 +370,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0274-h-index](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0274-h-index) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
