@@ -8,15 +8,20 @@ var trap = function (height) {
     let left = 0;
     let right = n - 1;
 
-    while (left < right) {
-        maxLeft = Math.max(maxLeft, height[left]);
-        maxRight = Math.max(maxRight, height[right]);
-
-        if (height[left] < height[right]) {
-            res += maxLeft - height[left];
-            left++
+    while (left <= right) {
+        if (height[left] <= height[right]) {
+            if (height[left] >= maxLeft) {
+                maxLeft = height[left];
+            } else {
+                res += maxLeft - height[left];
+            }
+            left++;
         } else {
-            res += maxRight - height[right];
+            if (height[right] >= maxRight) {
+                maxRight = height[right];
+            } else {
+                res += maxRight - height[right];
+            }
             right--;
         }
     }
