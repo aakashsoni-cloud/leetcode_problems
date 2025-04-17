@@ -4,6 +4,7 @@
  * @return {number}
  */
 var findMedianSortedArrays = function (nums1, nums2) {
+    // Brute Froce Merge Sort and then find the median
     let n1 = nums1.length;
     let n2 = nums2.length;
 
