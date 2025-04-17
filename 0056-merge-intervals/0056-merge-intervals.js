@@ -8,22 +8,12 @@ var merge = function (arr) {
     let result = [];
 
     for (let i = 0; i < n; i++) {
-        let start = arr[i][0];
-        let end = arr[i][1];
-
-        if (result.length && end <= result[result.length - 1][1]) {
-            continue;
+        if (!result.length || arr[i][0] > result[result.length - 1][1]) {
+            result.push(arr[i]);
         }
 
-        for (let j = i + 1; j < n; j++) {
-            if (arr[j][0] <= end) {
-                end = Math.max(end, arr[j][1])
-            } else {
-                break;
-            }
-        }
+        result[result.length - 1][1] = Math.max(result[result.length - 1][1], arr[i][1])
 
-        result.push([start, end])
     }
 
     return result
