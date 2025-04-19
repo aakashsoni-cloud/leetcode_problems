@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0599-minimum-index-sum-of-two-lists](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0940-fruit-into-baskets](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
+| [1023-time-based-key-value-store](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1023-time-based-key-value-store) |
 | [1034-subarrays-with-k-different-integers](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1034-subarrays-with-k-different-integers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0599-minimum-index-sum-of-two-lists](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0647-palindromic-substrings](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0680-valid-palindrome-ii) |
+| [1023-time-based-key-value-store](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1023-time-based-key-value-store) |
 | [1078-remove-outermost-parentheses](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1078-remove-outermost-parentheses) |
 | [1250-longest-common-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1250-longest-common-subsequence) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1023-time-based-key-value-store](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1646-kth-missing-positive-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1646-kth-missing-positive-number) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -382,4 +385,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0042-trapping-rain-water) |
+## Design
+|  |
+| ------- |
+| [1023-time-based-key-value-store](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1023-time-based-key-value-store) |
 <!---LeetCode Topics End-->
