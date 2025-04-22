@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0290-word-pattern) |
 | [0345-reverse-vowels-of-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0394-decode-string) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0050-powx-n) |
+| [0394-decode-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
@@ -335,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0042-trapping-rain-water) |
+| [0394-decode-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0394-decode-string) |
 | [1078-remove-outermost-parentheses](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
