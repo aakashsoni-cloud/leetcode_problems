@@ -9,27 +9,26 @@ var swap = function (num, start, end) {
 }
 var maximumSwap = function (num) {
 
-    let digits = num.toString().split('');
+    num = num.toString().split("");
+    let n = num.length;
 
-    for (let i = 0; i < digits.length; i++) {
-        let maxDigit = digits[i];
-        let maxIndex = i;
 
-        // Check the rest of the digits to the right
-        for (let j = i + 1; j < digits.length; j++) {
-            // Find the biggest digit on the right (furthest one if duplicates)
-            if (digits[j] >= maxDigit) {
-                maxDigit = digits[j];
+    for (let i = 0; i < n; i++) {
+        let maxEle = num[i];
+        let maxIndex = -1;
+
+        for (let j = i + 1; j < n; j++) {
+            if (num[j] >= maxEle) {
+                maxEle = num[j];
                 maxIndex = j;
             }
         }
-
-        // If a bigger digit is found later, swap it
-        if (maxDigit > digits[i]) {
-            [digits[i], digits[maxIndex]] = [digits[maxIndex], digits[i]];
+        if (maxIndex !== -1 && num[i] !== num[maxIndex] && i < maxIndex) {
+            swap(num, i, maxIndex);
             break;
         }
     }
 
-    return parseInt(digits.join(''));
+
+    return parseInt(num.join(""));
 };
