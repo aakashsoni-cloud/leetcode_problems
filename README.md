@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0605-can-place-flowers) |
+| [0670-maximum-swap](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0670-maximum-swap) |
 | [0680-valid-palindrome-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0680-valid-palindrome-ii) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2032-largest-odd-number-in-string](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0268-missing-number) |
+| [0670-maximum-swap](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0670-maximum-swap) |
 | [1013-fibonacci-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1630-count-odd-numbers-in-an-interval-range](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1630-count-odd-numbers-in-an-interval-range) |
