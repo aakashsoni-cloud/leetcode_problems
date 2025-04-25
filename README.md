@@ -399,4 +399,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1023-time-based-key-value-store](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/1023-time-based-key-value-store) |
+## Linked List
+|  |
+| ------- |
+| [0237-delete-node-in-a-linked-list](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0237-delete-node-in-a-linked-list) |
 <!---LeetCode Topics End-->
