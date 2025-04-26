@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0287-find-the-duplicate-number) |
+| [0322-coin-change](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0322-coin-change) |
 | [0349-intersection-of-two-arrays](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0349-intersection-of-two-arrays) |
 | [0410-split-array-largest-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0455-assign-cookies) |
@@ -227,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0152-maximum-product-subarray](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0152-maximum-product-subarray) |
+| [0322-coin-change](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0410-split-array-largest-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0516-longest-palindromic-subsequence) |
@@ -403,4 +405,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0237-delete-node-in-a-linked-list](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0237-delete-node-in-a-linked-list) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/aakashsoni-cloud/leetcode_problems/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
