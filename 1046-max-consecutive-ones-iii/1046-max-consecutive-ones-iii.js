@@ -21,11 +21,8 @@ var longestOnes = function (nums, k) {
             }
             l++;
         }
-
         maxLength = Math.max(maxLength, r - l + 1);
         r++;
     }
-
-    return maxLength;
-
+    return maxLength
 };
