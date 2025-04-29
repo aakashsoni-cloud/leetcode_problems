@@ -6,7 +6,7 @@ var nextPermutation = function (nums) {
     let n = nums.length;
     let index = -1;
 
-    for (let i = n - 1; i >= 0; i--) {
+    for (let i = n - 2; i >= 0; i--) {
         if (nums[i] < nums[i + 1]) {
             index = i;
             break;
