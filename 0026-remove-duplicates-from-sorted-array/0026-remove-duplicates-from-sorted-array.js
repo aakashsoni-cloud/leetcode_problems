@@ -8,7 +8,7 @@ var removeDuplicates = function (nums) {
     let r = 1;
 
     while (r < n) {
-        if (nums[l - 1] !== nums[r]) {
+        if (nums[r] != nums[l - 1]) {
             nums[l] = nums[r];
             l++;
         }
