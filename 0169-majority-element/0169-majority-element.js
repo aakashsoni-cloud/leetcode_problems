@@ -2,31 +2,32 @@
  * @param {number[]} nums
  * @return {number}
  */
-var majorityElement = function (arr) {
-    let n = arr.length;
-    let count = 0;
+var majorityElement = function (nums) {
+    let count = 1;
+    let n = nums.length;
+
     let elem;
 
     for (let i = 0; i < n; i++) {
-        if (count == 0) {
-            count = 1;
-            elem = arr[i];
-        } else if (elem == arr[i]) {
+        if (count == 1) {
+            elem = nums[i];
+            count++
+        } else if (elem == nums[i]) {
             count++;
         } else {
             count--;
         }
     }
 
+    console.log(elem);
+
     let count1 = 0;
 
     for (let i = 0; i < n; i++) {
-        if (elem == arr[i]) {
-            count1++;
+        if (elem == nums[i]) {
+            count1++
         }
     }
 
-    if (count1 > Math.floor(n / 2)) {
-        return elem;
-    }
+    return count1 > Math.floor(n / 2) ? elem : ""
 };
