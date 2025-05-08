@@ -4,23 +4,25 @@
  */
 var longestConsecutive = function (nums) {
     let n = nums.length;
-    let seen = new Set(nums);
-    let maxSeq = 0
 
-    for (const num of seen) {
-        if (!seen.has(num - 1)) {
-            let count = 1;
-            let x = num;
-
-            while (seen.has(x + 1)) {
-                x++;
-                count++;
-            }
-
-            maxSeq = Math.max(maxSeq, count);
-        }
-
+    if (n == 0) {
+        return 0;
     }
 
-    return maxSeq;
+    nums.sort((a, b) => a - b);
+
+    let count = 1;
+    let max = 0;
+
+    for (let i = 1; i < n; i++) {
+        if (nums[i] !== nums[i - 1]) {
+            if (nums[i] == nums[i - 1] + 1) {
+                count++
+            } else {
+                max = Math.max(max, count);
+                count = 1;
+            }
+        }
+    }
+    return Math.max(max, count);
 };
