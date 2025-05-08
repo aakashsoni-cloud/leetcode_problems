@@ -16,11 +16,11 @@ var majorityElement = function (nums) {
         } else if (num === major2) {
             count2++;
         } else if (count1 === 0) {
-            major1 = num;
             count1++;
+            major1 = num;
         } else if (count2 === 0) {
-            major2 = num;
             count2++;
+            major2 = num;
         } else {
             count1--;
             count2--;
@@ -31,9 +31,9 @@ var majorityElement = function (nums) {
     count2 = 0;
 
     for (let i = 0; i < n; i++) {
-        if (major1 == nums[i]) {
+        if (nums[i] == major1) {
             count1++;
-        } else if (major2 == nums[i]) {
+        } else if (nums[i] == major2) {
             count2++;
         }
     }
@@ -41,10 +41,11 @@ var majorityElement = function (nums) {
     let res = [];
 
     if (count1 > Math.floor(n / 3)) {
-        res.push(major1)
+        res.push(major1);
     }
+
     if (count2 > Math.floor(n / 3)) {
-        res.push(major2)
+        res.push(major2);
     }
 
     return res;
